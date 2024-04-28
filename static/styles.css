@@ -1,10 +1,15 @@
 * {
     box-sizing: border-box;
+    padding: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     font-family: sans-serif;
+}
+
+body {
+    background-color: #fff;
 }
 
 body h1 {
@@ -13,9 +18,23 @@ body h1 {
     font-family: serif;
 }
 
+body form {
+    box-shadow: 2px 2px 18px rgb(238 242 255 / 1);
+    box-sizing: border-box;
+    border-radius: 0.6rem;
+}
+
+form span {
+    margin: 2rem 0;
+    color: #0c0c0c;
+    font-size: 16px;
+    font-weight: 600;
+}
+
 .actions {
     display: flex;
     flex-direction: row;
+    padding: 4rem 1rem;
 }
 
 .btn {
@@ -30,4 +49,8 @@ body h1 {
     border-radius: 0.375rem;
     cursor: pointer;
     text-decoration: none;
+}
+
+.download-btn {
+    width: calc(100%-10px);
 }

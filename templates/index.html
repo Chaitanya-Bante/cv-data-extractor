@@ -9,11 +9,12 @@
 <body>
     <h1>CV Data Extractor</h1>
     <form method="POST" enctype="multipart/form-data">
+        <span>Select Multiple Files and Click Upload</span>
         <div class="actions">
             <input class="upload btn" type="file" name="file" multiple/>
             <button type="submit" class="btn">Upload</button>
-            <a href="/process" class="btn">Download</a>
         </div>
+        <a href="/process" class="btn download-btn">Download Excel Sheet</a>
     </form>
 </body>
 </html>
